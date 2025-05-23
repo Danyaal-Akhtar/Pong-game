@@ -20,5 +20,5 @@ Create a retro 2D Pong game to learn the basics of game programming with PyGame.
 
 Make sure you have PyGame installed:
 
-``bash
+```bash
 pip install pygame
