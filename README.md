@@ -2,15 +2,18 @@
 
 ## Description
 
-Une version revisitée du jeu classique **Pong**, développée en **Python** avec **Pygame**. Deux joueurs peuvent s’affronter sur le même ordinateur avec des touches distinctes.
+Une version moderne du jeu classique **Pong** pour deux joueurs sur le même ordinateur. Le jeu propose une balle dynamique, des effets visuels et un écran de démarrage interactif.
 
-Le jeu inclut :
+## Comment jouer
 
-- Balle dynamique qui change de couleur à chaque rebond.
-- Traînée derrière la balle pour un effet “en feu”.
-- Écran de démarrage interactif avec bouton **Start**.
-- Affichage du score en temps réel.
-- Structure de code modulaire et facile à comprendre.
+- **Joueur 1** : utiliser les touches **Z** (haut) et **S** (bas) pour déplacer la raquette.
+- **Joueur 2** : utiliser les **flèches Haut/Bas** pour déplacer la raquette.
+
+- La balle rebondit automatiquement sur les murs et les raquettes.
+
+- **Objectif** : marquer le plus de points possible en faisant passer la balle derrière la raquette de l’adversaire.
+
+- L’écran affiche le score des deux joueurs en haut de l’écran.
 
 ## Installation
 
@@ -27,6 +30,13 @@ Le jeu inclut :
     ```python
     python main.py
     ````
+## Fonctionnalités
+
+- Traînée visuelle derrière la balle (“effet en feu”).
+- Changement de couleur de la balle à chaque rebond.
+- Écran de démarrage interactif avec bouton **Start**.
+- Déplacement fluide des raquettes, limité à l’écran.
+- Score en temps réel pour suivre la partie.
 
 ## Organisation
 
