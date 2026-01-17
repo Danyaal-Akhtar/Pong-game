@@ -50,7 +50,7 @@ def main():
     score_joueur2 = 0
     font = pygame.font.Font(None, 80)
 
-    game_speed = 60
+    game_speed = 75
     max_speed = 120
 
     ball_history = []
