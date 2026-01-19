@@ -15,17 +15,19 @@ def ball(
     SPEED = 6
     rebond = False 
 
-
+    # Rebond sur les bords haut et bas
     if ball_position_y - ball_radius <= 0 or ball_position_y + ball_radius >= window_resolution[1]:
         ball_speed_y = -ball_speed_y
 
-
+    
+    # Collision avec le joueur 1    
     if (ball_position_x - ball_radius <= position_x_joueur1 + width_joueur1
         and position_y_joueur1 <= ball_position_y <= position_y_joueur1 + height_joueur1):
         ball_speed_x = -ball_speed_x
         rebond = True  
 
    
+    # Collision avec le joueur 2
     elif (ball_position_x + ball_radius >= position_x_joueur2
           and position_y_joueur2 <= ball_position_y <= position_y_joueur2 + height_joueur1):
         ball_speed_x = -ball_speed_x
